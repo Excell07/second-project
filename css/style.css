@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #fafafa;
+}
+
+body p {
+    color: #4d4d4d;
+}
+
+img {
+    max-width: 100%;
+}
+
+#port {
+    font-size: 1em;
+    padding: 0 0 45px 0;
+    text-align: center;
+    font-weight: 900;
+}
+
+div h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+
+/*      Navigation     */
+a {
+    text-decoration: none;
+}
+
+.name {
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.main-nav ul {
+    padding: 0px;
+    margin: 0;
+}
+
+.main-nav a {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    color: black;
+    font-weight: bold;
+}
+
+.main-nav li {
+    margin-top: 5px;
+}
+/* End */
+
+.banner img {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.banner p {
+    color: #808080;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#left {
+    float: left;
+    margin-left: -60px;
+}
+#right {
+    float: right;
+}
+
+#bottom-text {
+    list-style: none;
+    font-size: 13px;
+    margin-top: 28px;
+}
+
+#bottom-text a {
+    color: #000;
+    font-weight: bold;
+    padding: 30px 5px;
+}
+
+.container,
+.wrapper {
+    /* max-width: 940px; */
+    margin: 0 auto;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.main-footer {
+    background-color: whitesmoke;
+    margin-top: 55px;
+    text-align: center;
+    padding: 0 4%;
+}
+.main-footer a {
+    font-weight: 700;
+    color: #808080;
+    margin-left: 15px;
+}
+
+.main-footer h3 {
+    padding: 60px 0 0 0;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+}
+
+.main-footer p {
+    margin-top: 30px;
+    color: #999;
+}
+
+
+    .container p {
+        margin-bottom: 14%;
+    }
+
+    .banner p {
+        text-align: center;
+        margin-bottom: 90px;
+        /* width: 50%; */
+    }
+
+    .profile {
+        display: block;
+        max-width: 70%;
+        margin: 0 auto;     
+    }
+
+    .col {
+        padding-left: .3em;
+        padding-right: .3em;
+    }
+
+    #bottom-text li:nth-child(1n+3) {
+        display: none;
+    }
+    
+@media (min-width: 768px) {
+
+    .container {
+        background-color: whitesmoke;
+        /* width: 90%; */
+        margin: 0 auto -55px;
+        padding: 0 2%;
+    }
+/* 
+    .container img {
+        max-width: 100%;
+    } */
+
+    .col {
+        float: left;
+    }
+
+    .primary,
+    .secondary {
+        width: 50%;
+    }
+
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 25px;
+        /* padding-left: 1em;
+        padding-right: 1em; */
+    }
+    .main-nav ul {
+        /* text-align: center; */
+        margin-bottom: 30px;
+    }
+
+    .banner p {
+        text-align: left;
+        margin-bottom: 90px;
+        width: 65%;
+        /* position: relative; */
+    }
+
+    .profile {
+        /* float: right; */
+        max-width: 30%;
+        position: absolute;
+        right: 40px;
+        top: 154px;
+        /* margin: 20em; */
+    }
+
+    #port {
+        font-size: 1em;
+        /* text-align: center; */
+        padding: 50px 0 45px 0;
+        /* margin: 0 auto; */
+        /* margin-left: 195px; */
+        margin: 135px auto 0;
+        font-weight: 900;
+    }
+
+    .main-footer {
+        margin-bottom: 115px;
+    }
+
+    #bottom-text li:nth-child(2) {
+        display: none;
+    }
+
+    #bottom-text li:nth-child(1n+3) {
+        display: inline-block;
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    .container {
+        max-width: 95%;
+        margin-top: 12em;
+        background-color: #fff;
+    }
+
+    .primary {
+        width: 33%;
+    }
+
+    .secondary,
+    .tertiary {
+        width: 33%;
+    }
+
+    .name,
+    .col {
+        float: left;
+    }
+
+    .col {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+    .name {
+        font-size: 1.5em;
+        margin-left: -17px;
+    }
+
+    .main-nav {
+        float: right;
+        margin-right: 17px;
+    }
+
+    .main-header {
+        margin-top: 38px;
+    }
+
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+    .profile {
+        position: absolute;
+        top: 100px;
+        right: 87px;
+        max-width: 25%;
+    }
+
+}
